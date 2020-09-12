@@ -36,7 +36,6 @@ public class PlayerControllerX : MonoBehaviour
         
         playerRb = GetComponent<Rigidbody>();
         playerRb.AddForce(Vector3.up * 5, ForceMode.Impulse);
-
     }
 
     private void OnDestroy()
